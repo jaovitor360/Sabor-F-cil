@@ -1,12 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Sabor Fácil</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabor Fácil</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="logo">🍽️ Sabor Fácil</h1>
+      <nav class="nav">
+        <a href="#" class="nav-link">Início</a>
+        <a href="#" class="nav-link">Cardápio</a>
+        <button class="cart-btn" aria-label="Carrinho">🛒</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner de Boas-Vindas -->
+  <section class="hero">
+    <div class="container">
+      <h2>Bem-vindo ao Sabor Fácil!</h2>
+      <p>Os melhores pratos em um só lugar</p>
+    </div>
+  </section>
+
+  <!-- Categorias -->
+  <section class="categories container">
+    <h3 class="section-title">Categorias</h3>
+    <div class="categories-grid">
+      <button class="category-btn">Hambúrgueres</button>
+      <button class="category-btn">Pizzas</button>
+      <button class="category-btn">Bebidas</button>
+      <button class="category-btn">Porções</button>
+      <button class="category-btn">Sobremesas</button>
+    </div>
+  </section>
+
+  <!-- Destaques -->
+  <section class="highlights container">
+    <h3 class="section-title">Destaques</h3>
+    <div class="products-grid">
+      
+      <!-- Card 1 -->
+      <article class="product-card">
+        <div class="product-image">IMAGEM</div>
+        <div class="product-info">
+          <h4 class="product-title">Hambúrguer</h4>
+          <span class="product-price">R$ 25,00</span>
+          <button class="add-btn">Adicionar</button>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="product-card">
+        <div class="product-image">IMAGEM</div>
+        <div class="product-info">
+          <h4 class="product-title">Pizza</h4>
+          <span class="product-price">R$ 35,00</span>
+          <button class="add-btn">Adicionar</button>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="product-card">
+        <div class="product-image">IMAGEM</div>
+        <div class="product-info">
+          <h4 class="product-title">Bebida</h4>
+          <span class="product-price">R$ 6,00</span>
+          <button class="add-btn">Adicionar</button>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <p>Sabor Fácil &copy; 2026</p>
+    </div>
+  </footer>
+
 </body>
 </html>
